@@ -5,7 +5,7 @@ from email.header import decode_header
 
 # Login credentials
 email_address = "gmail.com" #put your own email here, 
-password = "kkky " #make sure you create an app password 
+password = "kkky " #make sure you create an app password, here: https://www.youtube.com/watch?v=MmgIyRmynbg
 
 # Connect to the IMAP server
 mail = imaplib.IMAP4_SSL('imap.gmail.com', 993)
